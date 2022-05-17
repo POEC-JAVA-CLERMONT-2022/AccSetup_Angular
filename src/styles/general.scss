@@ -1,0 +1,90 @@
+$bg-body:#1C1E21;
+$text-primary:#F2F3F5;
+$bg-header:#303338;
+$accsetup-accent : #c12512;
+
+@font-face {
+    font-family: ROBOTO;
+    src: url(/assets/fonts/Roboto-Regular.ttf);
+}
+
+.pink {
+    background-color: hotpink;
+}
+
+.green {
+    background-color: yellowgreen;
+}
+
+.blue {
+    background-color: aquamarine;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.purple {
+    background-color: rgb(163, 103, 163);
+}
+.logo img{
+    width: 100%;
+    min-width: 10rem;
+}
+
+body {
+    background-color: $bg-body;
+    color: $text-primary;
+
+}
+
+a, h2 {
+    color: $text-primary;
+    text-decoration: none;
+    font-family: ROBOTO;
+}
+
+header {
+    background-color: $bg-header;
+    box-sizing: border-box;
+    border-bottom: $accsetup-accent solid .2rem;
+}
+
+.page {
+    min-height: 38rem;
+    background: url(/assets/images/photo-background.png) center no-repeat;
+}
+
+.section {
+    min-height: 38rem;
+}
+
+.justify-content-arround {
+  justify-content: space-around;
+}
+
+.bg-tr {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.bd-with {
+  border: 3px solid #F5F6F7;
+  justify-content: space-around;
+}
+
+.bg-black {
+  background-color: $fds-gray-100;
+}
+
+.bg-cmmt {
+  background-color: $fds-gray-20;
+}
+
+.ft-cl-gr80{
+  color: $fds-gray-80;
+
+}
